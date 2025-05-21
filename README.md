@@ -48,12 +48,13 @@ graph TD
     KFK --> MON
     APP --> MON
 
-    %% Styling for emphasis
-    classDef source fill:#f9f,stroke:#333,stroke-width:2px,color:#000;
-    classDef pipeline fill:#bbf,stroke:#333,stroke-width:2px,color:#000;
-    classDef consumers fill:#bfb,stroke:#333,stroke-width:2px,color:#000;
-    classDef observability fill:#fee,stroke:#333,stroke-width:2px,color:#000;
+    %% Class definitions: muted, professional colors
+    classDef source fill:#e0e7ff,stroke:#1e3a8a,stroke-width:1.5px,color:#1e3a8a;
+    classDef pipeline fill:#e0f2f1,stroke:#00695c,stroke-width:1.5px,color:#004d40;
+    classDef consumers fill:#ede7f6,stroke:#4527a0,stroke-width:1.5px,color:#311b92;
+    classDef observability fill:#f3e5f5,stroke:#6a1b9a,stroke-width:1.5px,color:#4a148c;
 
+    %% Apply classes
     class PG source
     class DBZ,KFK,RETRY pipeline
     class APP,ES consumers

@@ -4,25 +4,24 @@ ElasticSync is a real-time Change Data Capture (CDC) pipeline that streams Postg
 # Architecture
 
 flowchart LR
-    subgraph Postgres
-        PG[(PostgreSQL DB)]
-    end
+  subgraph Postgres
+    PG[(PostgreSQL DB)]
+  end
 
-    subgraph Debezium
-        DBZ[Debezium Connector]
-    end
+  subgraph Debezium
+    DBZ[Debezium Connector]
+  end
 
-    subgraph Kafka
-        KFK[Kafka Broker]
-    end
+  subgraph Kafka
+    KFK[Kafka Broker]
+  end
 
-    subgraph NodeJS
-        APP[Node.js Consumer App]
-    end
+  subgraph NodeJS
+    APP[Node.js Consumer App]
+  end
 
-    subgraph Elasticsearch
-        ES[(Elasticsearch Cluster)]
-    end
+  subgraph Elasticsearch
+    ES[(Elasticsearch Cluster)]
+  end
 
-    PG --> DBZ --> KFK --> APP --> ES
-
+  PG --> DBZ --> KFK --> APP --> ES

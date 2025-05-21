@@ -1,7 +1,5 @@
 # ElasticSync
-ElasticSync is your real-time data superhero 🦸‍♂️—capturing every change in your Postgres database 🐘 and zooming it straight into Elasticsearch ⚡ using Node.js 🟩, Kafka 🧩, and Debezium 🛠️.
-Built on an event-driven heartbeat 💓, it guarantees lightning-fast search and analytics ⚡⚡ while keeping your data synced and safe — no matter what chaos your systems throw at it! 🔄🔥
-
+ElasticSync is a real-time Change Data Capture (CDC) pipeline that streams Postgres database changes into Elasticsearch using Node.js, Kafka, and Debezium. Designed with an event-driven architecture, it ensures low-latency search, analytics, and fault-tolerant syncing between relational and NoSQL systems.
 
 # Architecture
 ```mermaid

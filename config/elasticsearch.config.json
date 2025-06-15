@@ -1,0 +1,4 @@
+{
+    "ELASTICSEARCH_NODE": "http://elasticsearch:9200",
+    "INDEX": "example-table"
+}

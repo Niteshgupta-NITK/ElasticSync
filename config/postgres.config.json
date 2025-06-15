@@ -1,0 +1,7 @@
+{
+    "POSTGRES_HOST": "your-pg-ip-or-dns-name",
+    "POSTGRES_PORT": 5432,
+    "POSTGRES_DB": "elasticsync",
+    "POSTGRES_USER": "elasticsync",
+    "POSTGRES_PASSWORD": "elasticsync"
+}

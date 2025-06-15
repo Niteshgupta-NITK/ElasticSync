@@ -1,0 +1,13 @@
+{
+    "name": "elasticsync",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "dependencies": {
+        "@elastic/elasticsearch": "^8.5.0",
+        "kafkajs": "^2.2.4",
+        "pg": "^8.8.0"
+    }
+}
